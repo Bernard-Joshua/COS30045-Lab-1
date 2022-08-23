@@ -30,6 +30,13 @@ img {
   display: table;
 }
 
+.btn-col{
+  float: left;
+  width: 5%;
+  padding: 20px;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -46,4 +53,39 @@ figcaption {
   display: table-caption;
   caption-side: bottom;
   font-style: italic;
+}
+
+button {
+  color: black;
+  border-radius: 15px;
+  padding: 10px 25px;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+#btn1 {
+  border: 2px solid #008CBA;
+}
+
+#btn2 {
+  border: 2px solid #B22222 ;
+}
+
+#btn3 {
+  border: 2px solid #555555;
+}
+
+#btn1:hover {
+  color: white;
+  background-color: #008CBA;
+}
+
+#btn2:hover{
+  color: white;
+  background-color: #B22222;
+}
+
+#btn3:hover {
+  color: white;
+  background-color: #555555;
 }
