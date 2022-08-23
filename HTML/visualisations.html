@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Data Visualisation Exercise 1" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Bernard Joshua" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <title>Task 1.2 Javascript Demo Page</title>
+    <!--Insert description of exercise 
+		In this unit you will be learning to design and program interactive data visualisations for the web. So to start with you need to make sure that you are familiar with some of the basics of web programming (e.g., HTML and CSS).  In this exercise you will:
+	-->
+  </head>
+
+  <body>
+    <h1>Pets and the Pandemic ( Chart Visualisations )</h1>
+    <h2>Bernard Joshua</h2>
+
+    <div class="row">
+      <div class="btn-col">
+        <button id="btn1">2019</button>
+      </div>
+      <div class="btn-col">
+        <button id="btn2">2021</button>
+      </div>
+      <div class="btn-col">
+        <button id="btn3">Both</button>
+      </div>
+    </div>
+
+    <figure>
+      <img
+        src="/Images/pet_ownership_in_australia_table.png"
+        alt="Charts of pet trends" 
+        id="img"
+      />
+      <figcaption id="chart-cap">
+        Fig 1. Comparison of pet ownership in 2019 and 2021.
+      </figcaption>
+    </figure>
+
+    <footer>
+      <a href="/HTML/article.html">COS30045 Data Visualisation</a>
+      <p>Semester 2, 2022</p>
+    </footer>
+    <script src="/Javascript/showCharts.js"></script> <!--Add scripts at the end so that it does not load before the page loads. -->
+  </body>
+</html>
