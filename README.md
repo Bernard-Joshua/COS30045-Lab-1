@@ -8,6 +8,6 @@ Labs 1.1 to 1.3
 
 
 ### Author
-*Bernard Joshua Raja Rajan
-103365867
+*Bernard Joshua Raja Rajan<br/>
+103365867<br/>
 Swinburne University of Technology*
