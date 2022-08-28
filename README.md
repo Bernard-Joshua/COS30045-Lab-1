@@ -7,7 +7,7 @@ Labs 1.1 to 1.3
 - Creating shapes with SVG.
 
 
-### Author
+## Author
 *Bernard Joshua Raja Rajan<br/>
 103365867<br/>
 Swinburne University of Technology*
